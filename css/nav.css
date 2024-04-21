@@ -1,0 +1,32 @@
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    min-height: 5vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+ul {
+    /* display: flex; */
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    /* text-decoration: underline; */
+    background-color: white;
+    color: black;
+    padding: 1rem;
+}
